@@ -98,6 +98,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ReflowingContentPage.xaml.cs">
+      <DependentUpon>ReflowingContentPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ResponsiveLayoutPage.xaml.cs">
       <DependentUpon>ResponsiveLayoutPage.xaml</DependentUpon>
     </Compile>
@@ -129,6 +132,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ReflowingContentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ResponsiveLayoutPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

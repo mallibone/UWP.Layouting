@@ -21,12 +21,11 @@ namespace UWP.Layouting
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class ResponsiveLayoutPage : Page
+    public sealed partial class ReflowingContentPage : Page
     {
-        public ResponsiveLayoutPage()
+        public ReflowingContentPage()
         {
             this.InitializeComponent();
-            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
         }
     }
 }

@@ -10,7 +10,7 @@
     <Grid Background="White">
         <StackPanel  Padding="4" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Button Content="Adaptive Layout" Width="150" Margin="8" Click="ButtonBase_OnClick"/>
-            <Button Content="Master Detail" Width="150" Margin="8"/>
+            <Button Content="Flow Layout" Width="150" Margin="8" Click="FlowLayoutButton_OnClick"/>
         </StackPanel>
     </Grid>
 

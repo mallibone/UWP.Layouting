@@ -31,5 +31,10 @@ namespace UWP.Layouting
         {
             Frame.Navigate(typeof (ResponsiveLayoutPage));
         }
+
+        private void FlowLayoutButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof (ReflowingContentPage));
+        }
     }
 }
